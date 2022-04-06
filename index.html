@@ -9,6 +9,7 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portofolio</title>
 </head>
 <body>
@@ -33,31 +34,34 @@
             
         </nav>
     </header>
-    <div class="container">
-        <div class="image-light">
-            <img src="/assets/circle 2 header@2x.png">
+    <div class="container-fluid ">
+        <div class="row align-items-start">
+        <div class="col-3"><div class="image-light">
+            <img src="/assets/circle 2 header@2x.png" class="img-fluid w-50">
         </div>
-        <div class="align-items-center">
+        </div>
+        <div class="col">
+        <div class="align-items-center pt-5 pb-4 mb-4 text-center">
         <h1 class="text-secondary">Laura Jong</h1>
         <div><h5 class="text-light">Software Developer</h5></div>
         </div>
-        <div class="">
-            <p class="text-secondary">I can help you build a product , feature or website Look through some of my work and experience! 
+        <div class="pb-5 border-bottom border-dark">
+            <p class="text-secondary align-self-center text-center">I can help you build a product , feature or website Look through some of my work and experience! 
                 If you like what you see and have a project you need coded,  don’t hestiate to contact me.</p>
         </div>
-        <div class="technology d-flex">
-            <div class="language">
+        <div class="technology d-flex text-center pt-2 pb-3 border-bottom border-dark">
+            <div class="row">
+                    <h6 class="text-light">Language</h6>
                 <ul class="text-light" style="list-style: none;">
-                    <li>Language</li>
                     <li>Javascript</li>
                     <li>Ruby</li>
                     <li>Html</li>
                     <li>Css</li>
                 </ul>
             </div>
-            <div class="framework">
+            <div class="row">
+                    <h6 class="text-light">Frameworks</h6>
                 <ul class="text-light" style="list-style: none;">
-                    <li>Frameworks</li>
                     <li>bootstrap</li>
                     <li>Ruby on Rails</li>
                     <li>RSPec</li>
@@ -65,9 +69,9 @@
                     <li>Selenium</li>
                 </ul>
             </div>
-            <div class="skills">
+            <div class="row">
+                    <h6 class="text-light">Skills</h6>
                 <ul class="text-light" style="list-style: none;">
-                    <li>Skills</li>
                     <li>Codekit</li>
                     <li>Github</li>
                     <li>Codepen</li>
@@ -77,6 +81,27 @@
             </div>
             
         </div>
+        </div>
+        <div class="col-4 align-self-end">
+            <img src="/assets/circle 2 header@2x.png" class="img-fluid w-50">
+        </div>
+        </div>
+        </div>
+        <div class="container d-flex justify-content-between">
+            <div class="row">
+                <p class="p-4 text-secondary">Work</p>
+            </div>
+            <div class="row d-flex">
+                <ul class="text-light d-flex" style="list-style: none;">
+                    <li class="p-4"><a href="#"><img src="assets/git.svg" alt="github"></a></li>
+                    <li class="p-4"><a href="#"><img src="assets/in.png" alt="linkdin"></a></li>
+                    <li class="p-4"><a href="#"><img src="assets/peace.svg" alt="peace"></a></li>
+                    <li class="p-4"><a href="#"><img src="assets/twitter.svg" alt="twitter"></a></li>
+                    <li class="p-4"><a href="#"><img src="assets/m.svg" alt=""></a></li>
+            </div>
+            <div class="row ">
+                <p class="p-4 text-secondary">Work</p>
+            </div>
     </div>
 </body>
 </html>
