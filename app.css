@@ -3,3 +3,18 @@ html,
 body {
   background: #191765;
 }
+
+/* Card transparency */
+
+.bg-see {
+  --bs-bg-opacity: 0;
+  z-index: 0;
+  /*background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;*/
+}
+
+.center-card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10;
+
+}
