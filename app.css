@@ -1,0 +1,10 @@
+*
+html,
+body {
+  background: #191765;
+}
+
+.center-card {
+  float: none;
+  margin: 0 auto 88px;
+}
